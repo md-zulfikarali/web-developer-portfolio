@@ -1,4 +1,21 @@
 /* common shared style */
+.skip-link{
+    left: -10000px;
+    position: absolute;
+    top: 0;
+}
+.skip-link:hover{
+    left: 0;
+    
+}
+
+.skip-link:focus{
+    left: 0;
+    background-color: #005bc2;
+}
+.skip-link{
+color: #FFF;
+}
 body {
     font-family: 'lato';
     font-family: 'Open Sans', sans-serif;
